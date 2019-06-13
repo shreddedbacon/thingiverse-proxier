@@ -1,0 +1,12 @@
+{{define "content"}}
+<h1>Thing</h1>
+<div class="row">
+  <div class="card text-white bg-dark col-lg">
+    <div class="card-header">{{.Name}}</div>
+    <div class="card-body">
+      <p class="card-text"><img style="width: 14rem; height: 14rem" src="{{.DefaultImage.URL}}" alt="Card image cap"></p>
+        <p class="card-text">{{.Description}}</p>
+    </div>
+  </div>
+</div>
+{{end}}
